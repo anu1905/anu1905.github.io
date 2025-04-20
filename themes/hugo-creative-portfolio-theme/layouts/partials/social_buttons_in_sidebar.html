@@ -1,0 +1,72 @@
+<p class="social">
+  {{ with .Site.Params.social.facebook }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external facebook" title="Facebook" rel="me">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.googleplus }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external gplus" title="Google Plus" rel="me">
+    <i class="fa-brands fa-google-plus"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.twitter }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external twitter" title="Twitter" rel="me">
+    <i class="fa-brands fa-twitter"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.instagram }}
+  <a href="{{ . }}" title="" class="external instagram" title="Instagram" rel="me">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.email }}
+  <a href="mailto:{{ . }}" data-animate-hover="pulse" class="email" title="E-mail">
+    <i class="fa fa-envelope"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.linkedin }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="LinkedIn" rel="me">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.stackoverflow }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="Stack Overflow" rel="me">
+    <i class="fa-brands fa-stack-overflow"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.github }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="GitHub" rel="me">
+    <i class="fa-brands fa-github"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.gitlab }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="GitLab" rel="me">
+    <i class="fa fa-gitlab"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.youtube }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="YouTube" rel="me">
+    <i class="fa fa-youtube"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.whatsapp }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.mastodon }}
+  <a class="external" rel="me" data-animate-hover="pulse" title="Mastodon" href="{{ . }}">
+  <i class="fa-brands fa-mastodon"></i>
+  </a>
+  {{ end }}
+  {{ with .Site.Params.social.scholar }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="Google-Scholar">
+    <i class="fa-brands fa-google-scholar"></i>
+  </a>
+  {{end}}
+  {{ with .Site.Params.social.medium }}
+  <a href="{{ . }}" data-animate-hover="pulse" class="external" title="Medium">
+    <i class="fa-brands fa-medium"></i>
+  </a>
+  {{end}}
+</p>
