@@ -1,6 +1,6 @@
 +++
 draft = false
-image = "img/portfolio/Kolam N-line fast 2.gif"
+image = "img/portfolio/Kolam_N-line_fast_2.gif"
 showonlyimage = false
 date = "2016-11-05T19:50:47+05:30"
 tags = ["folk art", "patterns", "algorithms", "kolam"]
