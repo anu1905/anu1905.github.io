@@ -8,9 +8,8 @@
          {{ .Content }}
          <h4>You can find me also on:</h4>
          {{ partial "social_buttons_in_contact.html" . }}
-         {{ with .Site.Params.email }}
          <h4>Drop me a line, maybe?</h4>
-         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
+         <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/f/mwplgjld">
            <div class="controls">
              <div class="form-group">
                <label for="name">Your name *</label>
@@ -29,7 +28,6 @@
              </div>
            </div>
          </form>
-         {{ end }}
       </div>
     </div>
   </div>
