@@ -5,7 +5,7 @@ showonlyimage = false
 date = "2016-11-05T20:23:59+05:30"
 tags = ["folk art", "code", "patterns", "embroidery"]
 title = "A Love Story in Hitomezashi"
-weight = 12
+weight = 13
 +++
 
 Can you decode this love story written in stitches? TEMP
